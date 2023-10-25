@@ -2,7 +2,7 @@
   "name": "execute-shell-commands-periodically",
   "displayName": "Execute Shell Commands Periodically",
   "description": "Execute shell commands periodically",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.68.0"
   },
@@ -38,8 +38,8 @@
           },
           "execute-shell-commands-periodically.executeInterval": {
               "type": "number",
-              "default": 10000,
-              "description": "the delay between execution of the shell commands"
+              "default": 10,
+              "description": "the seconds between execution of the shell commands"
           },  
           "execute-shell-commands-periodically.windowsShell": {
               "type": "string",

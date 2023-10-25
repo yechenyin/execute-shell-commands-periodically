@@ -67,7 +67,7 @@ function startExecCommands() {
     }
   }
   execute()
-  execution = setInterval(execute, getConfig('executeInterval'))
+  execution = setInterval(execute, getConfig('executeInterval') * 1000)
 }
 function stopCurrentWorkspaceExec() {
   setWorkspace('stop', true)

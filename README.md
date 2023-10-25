@@ -13,7 +13,7 @@ Error Handle的默认设置为"[[error: Your local changes to the following file
 即当前的文件修改和git pull的远程仓库文件有冲突报错时，先执行git stash贮藏你的修改，接着执行git pull拉取最新代码，最后执行git stash pop恢复你的修改。\
 可以按照此格式设置多个出错信息和对应的处理命令。
 
-vscode market: https://marketplace.visualstudio.com/items?itemName=yechenyin.execute-shell-commands-periodically\
+vscode market: https://marketplace.visualstudio.com/items?itemName=yechenyin.execute-shell-commands-periodically  
 source code: https://github.com/yechenyin/execute-shell-commands-periodically
 
 
